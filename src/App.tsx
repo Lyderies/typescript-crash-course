@@ -6,8 +6,11 @@
 // import Enums from "./modules/Enums";
 // import AnyType from "./modules/AnyType";
 // import UnionTypes from './modules/UnionTypes';
+// import LiteralTypes from "./modules/LiteralTypes";
 
-import UnionTypes from "./modules/UnionTypes";
+import TypeAliases from "./modules/TypeAliases";
+
+
 
 
 
@@ -23,7 +26,11 @@ const App = () => {
       {/* <Enums /> */}
       {/* <AnyType /> */}
       {/* <UnionTypes /> */}
-      <UnionTypes />
+      {/* <LiteralTypes /> */}
+      <TypeAliases />
+
+
+
     </div>
   );
 }

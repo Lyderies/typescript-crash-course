@@ -1,11 +1,14 @@
-// Literal Type Module
+// Type Aliases Module
 
-const LiteralTypes = () => {
+const TypeAliases = () => {
+
+    type Combinable = number | string;
+    type ConversionDescriptor = 'as-number' | 'as-text'
 
     const combine = (
-        input1: number | string,
-        input2: number | string,
-        resultConversion: 'as-number' | 'as-text'
+        input1: Combinable,
+        input2: Combinable,
+        resultConversion: ConversionDescriptor,
         ) => {
         let result;
         if (typeof input1 === 'number' && typeof input2 === 'number' || resultConversion === 'as-number') {
@@ -38,4 +41,4 @@ const LiteralTypes = () => {
     )
 }
 
-export default LiteralTypes
+export default TypeAliases
