@@ -1,6 +1,4 @@
-
-
-const Enums = () => {
+const AnyType = () => {
 
     // const ADMIN = 0;
     // const READ_ONLY = 1;
@@ -31,8 +29,8 @@ const Enums = () => {
 
     // person.role = [0, 'admin', 'user']
 
-    let favoriteActivities: any[];
-    favoriteActivities = ['sports', 1, 4, 'Taro'];
+    let favoriteActivities: string[]; // avoid any!
+    favoriteActivities = ['sports'];
 
     console.log(person.name)
 
@@ -52,4 +50,4 @@ const Enums = () => {
     )
 }
 
-export default Enums
+export default AnyType

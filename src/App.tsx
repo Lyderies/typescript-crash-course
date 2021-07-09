@@ -3,7 +3,8 @@
 // import ObjectTypes from "./modules/ObjectTypes";
 // import ArrayTypes from "./modules/ArrayTypes";
 // import Tuples from "./modules/Tuples";
-import Enums from "./modules/Enums";
+// import Enums from "./modules/Enums";
+import AnyType from "./modules/AnyType";
 
 
 
@@ -16,7 +17,8 @@ const App = () => {
       {/* <ObjectTypes /> */}
       {/* <ArrayTypes /> */}
       {/* <Tuples /> */}
-      <Enums />
+      {/* <Enums /> */}
+      <AnyType />
     </div>
   );
 }
