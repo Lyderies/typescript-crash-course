@@ -4,7 +4,10 @@
 // import ArrayTypes from "./modules/ArrayTypes";
 // import Tuples from "./modules/Tuples";
 // import Enums from "./modules/Enums";
-import AnyType from "./modules/AnyType";
+// import AnyType from "./modules/AnyType";
+// import UnionTypes from './modules/UnionTypes';
+
+import UnionTypes from "./modules/UnionTypes";
 
 
 
@@ -18,7 +21,9 @@ const App = () => {
       {/* <ArrayTypes /> */}
       {/* <Tuples /> */}
       {/* <Enums /> */}
-      <AnyType />
+      {/* <AnyType /> */}
+      {/* <UnionTypes /> */}
+      <UnionTypes />
     </div>
   );
 }
