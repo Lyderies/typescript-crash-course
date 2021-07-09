@@ -2,7 +2,8 @@
 // import UsingTypes from './modules/UsingTypes';
 // import ObjectTypes from "./modules/ObjectTypes";
 // import ArrayTypes from "./modules/ArrayTypes";
-import Tuples from "./modules/Tuples";
+// import Tuples from "./modules/Tuples";
+import Enums from "./modules/Enums";
 
 
 
@@ -14,7 +15,8 @@ const App = () => {
       {/* <UsingTypes /> */}
       {/* <ObjectTypes /> */}
       {/* <ArrayTypes /> */}
-      <Tuples />
+      {/* <Tuples /> */}
+      <Enums />
     </div>
   );
 }
