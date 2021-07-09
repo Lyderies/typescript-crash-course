@@ -7,8 +7,9 @@
 // import AnyType from "./modules/AnyType";
 // import UnionTypes from './modules/UnionTypes';
 // import LiteralTypes from "./modules/LiteralTypes";
+// import TypeAliases from "./modules/TypeAliases";
 
-import TypeAliases from "./modules/TypeAliases";
+import FunctionReturnTypes from "./modules/FunctionReturnTypes";
 
 
 
@@ -27,8 +28,8 @@ const App = () => {
       {/* <AnyType /> */}
       {/* <UnionTypes /> */}
       {/* <LiteralTypes /> */}
-      <TypeAliases />
-
+      {/* <TypeAliases /> */}
+      <FunctionReturnTypes />
 
 
     </div>
