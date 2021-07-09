@@ -2,6 +2,7 @@
 // import UsingTypes from './modules/UsingTypes';
 // import ObjectTypes from "./modules/ObjectTypes";
 // import ArrayTypes from "./modules/ArrayTypes";
+import Tuples from "./modules/Tuples";
 
 
 
@@ -13,6 +14,7 @@ const App = () => {
       {/* <UsingTypes /> */}
       {/* <ObjectTypes /> */}
       {/* <ArrayTypes /> */}
+      <Tuples />
     </div>
   );
 }
